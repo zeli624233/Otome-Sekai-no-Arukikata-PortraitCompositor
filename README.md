@@ -126,6 +126,7 @@ otome-portrait-compositor-v13-full/
 
 ## 使用方法 How To Use
 
-![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
+![How To Use](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/tree/main/使用说明 How To Use.png?raw=true)
+
 
 
