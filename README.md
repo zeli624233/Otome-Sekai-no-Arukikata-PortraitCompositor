@@ -24,7 +24,7 @@ Restoring the original filenames of the game’s source files relies on the Free
 
 ## 使用说明 How To Use
 
-![使用说明](https://github.com/zelj624233/Otome-Sekai-no-Arukata-PortraitCompositor/raw/main/使用说明%20How%20To%20Use.png)
+![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
 
 
 关于这个工具；
