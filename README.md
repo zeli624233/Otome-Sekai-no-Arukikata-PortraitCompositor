@@ -3,23 +3,23 @@
 
 这个软件是用于合成 オトメ世界の歩き 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 
-PSB 文件转换成 JSON 文件参考了Gitai大佬（https://github.com/zhaomaoniu）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！：https://github.com/zhaomaoniu/PBDConverter
+PSB 文件转换成 JSON 文件参考了Gitai大佬（https://github.com/zhaomaoniu）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！：（https://github.com/zhaomaoniu/PBDConverter）
 
-TLG 文件转换成 PNG  文件参考了rr- 大佬（https://github.com/rr-）的代码，使用批处理脚本，真快！，不用手动复制了！：https://github.com/vn-tools/tlg2png 
+TLG 文件转换成 PNG  文件参考了rr- 大佬（https://github.com/rr-）的代码，使用批处理脚本，真快！，不用手动复制了！：（https://github.com/vn-tools/tlg2png ）
 
-XP3 游戏资源的解包离不开YeLike大佬（https://github.com/YeLikesss）的KrkrExtractV2 (ForCxdecV2) 动态工具集，对付加密的 Cxdec V2游戏真有一手！：https://github.com/YeLikesss/KrkrExtractForCxdecV2
+XP3 游戏资源的解包离不开YeLike大佬（https://github.com/YeLikesss）的KrkrExtractV2 (ForCxdecV2) 动态工具集，对付加密的 Cxdec V2游戏真有一手！：（https://github.com/YeLikesss/KrkrExtractForCxdecV2）
 
-游戏原文件文件名的还原离不开UlyssesWu大佬（https://github.com/UlyssesWu）的FreeMote工具，有文件的哈希值配合这个工具，游戏的文件原名轻松找到！：https://github.com/UlyssesWu/FreeMote
+游戏原文件文件名的还原离不开UlyssesWu大佬（https://github.com/UlyssesWu）的FreeMote工具，有文件的哈希值配合这个工具，游戏的文件原名轻松找到！：（https://github.com/UlyssesWu/FreeMote）
 
 This software is designed for composing character stand sprites for Otome Sekai no Aruki. The development of this project drew on numerous excellent repositories from talented developers on GitHub, and we express our sincere gratitude to all of them!
 
-The conversion of PSB files to JSON files references the code by Gitai (https://github.com/zhaomaoniu) — our heartfelt thanks! We once thought this conversion would be impossible, and we’re so grateful for their repository: https://github.com/zhaomaoniu/PBDConverter
+The conversion of PSB files to JSON files references the code by Gitai (https://github.com/zhaomaoniu) — our heartfelt thanks! We once thought this conversion would be impossible, and we’re so grateful for their repository: （https://github.com/zhaomaoniu/PBDConverter）
 
-The conversion of TLG files to PNG files references the code by rr- (https://github.com/rr-). Using the batch script is incredibly fast, no more manual copying! Repository link: https://github.com/vn-tools/tlg2png
+The conversion of TLG files to PNG files references the code by rr- (https://github.com/rr-). Using the batch script is incredibly fast, no more manual copying! Repository link:（ https://github.com/vn-tools/tlg2png）
 
-The extraction of XP3 game resources would not be possible without the KrkrExtractV2 (ForCxdecV2) dynamic toolset by YeLike (https://github.com/YeLikesss) — this tool is truly masterful at handling games encrypted with Cxdec V2! Repository link: https://github.com/YeLikesss/KrkrExtractForCxdecV2
+The extraction of XP3 game resources would not be possible without the KrkrExtractV2 (ForCxdecV2) dynamic toolset by YeLike (https://github.com/YeLikesss) — this tool is truly masterful at handling games encrypted with Cxdec V2! Repository link: （https://github.com/YeLikesss/KrkrExtractForCxdecV2）
 
-Restoring the original filenames of the game’s source files relies on the FreeMote tool by UlyssesWu (https://github.com/UlyssesWu). With file hash values paired with this tool, retrieving the original game filenames is a breeze! Repository link: https://github.com/UlyssesWu/FreeMote
+Restoring the original filenames of the game’s source files relies on the FreeMote tool by UlyssesWu (https://github.com/UlyssesWu). With file hash values paired with this tool, retrieving the original game filenames is a breeze! Repository link: （https://github.com/UlyssesWu/FreeMote）
 
 
 关于这个工具；
