@@ -124,7 +124,4 @@ otome-portrait-compositor-v13-full/
 └─ test_v6.png
 
 
-## 软件：
-
-<img width="1602" height="931" alt="Otome Portrait Compositor Ver1.0" src="https://github.com/user-attachments/assets/d79d1247-b6f3-4922-b1db-d77d7f19737a" />
 
