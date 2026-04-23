@@ -22,6 +22,11 @@ The extraction of XP3 game resources would not be possible without the KrkrExtra
 Restoring the original filenames of the game’s source files relies on the FreeMote tool by UlyssesWu (https://github.com/UlyssesWu). With file hash values paired with this tool, retrieving the original game filenames is a breeze! Repository link: （https://github.com/UlyssesWu/FreeMote）
 
 
+## 使用说明 How To Use
+
+![使用说明](https://github.com/zelj624233/Otome-Sekai-no-Arukata-PortraitCompositor/raw/main/使用说明%20How%20To%20Use.png)
+
+
 关于这个工具；
 
 # オトメ世界の歩き方 立绘合成器 Ver1.0 / Otome Portrait Compositor Ver1.0
@@ -125,9 +130,7 @@ otome-portrait-compositor-v13-full/
 
 
 
-## 使用说明 How To Use
 
-![使用说明](https://github.com/zelj624233/Otome-Sekai-no-Arukata-PortraitCompositor/raw/main/使用说明%20How%20To%20Use.png)
 
 
 
