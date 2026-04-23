@@ -5,7 +5,7 @@
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
 
 
-# 关于这个工具；
+# 如果您没有PNG的图片，请使用这个仓库：https://github.com/vn-tools/tlg2png的工具来转换，JSON文件我已在
 
 # オトメ世界の歩き方 立绘合成器 Ver1.0 / Otome Portrait Compositor Ver1.0
 
