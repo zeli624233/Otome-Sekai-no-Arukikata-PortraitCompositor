@@ -5,8 +5,8 @@
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
 
 
- 如果你没有PNG的图片，请使用这个仓库：https://github.com/vn-tools/tlg2png 的工具来转换。
- JSON文件我已为大家准备好，在下载的合成工具压缩包里
+ - 如果你没有PNG的图片，请使用这个仓库：https://github.com/vn-tools/tlg2png 的工具来转换。
+ - JSON文件我已为大家准备好，在下载的合成工具压缩包里
  当然你也可以使用这个仓库的工具来转换（ https://github.com/zhaomaoniu/PBDConverter ）
 
  ## オトメ世界の歩き方 立绘合成器 Ver1.0 / Otome-Sekai-no-Arukikata-PortraitCompositor
