@@ -6,7 +6,8 @@
 
 
  如果你没有PNG的图片，请使用这个仓库：https://github.com/vn-tools/tlg2png 的工具来转换。
- JSON文件我已为大家准备好，在下载的合成工具压缩包里，当然你也可以使用这个仓库的工具来转换（ https://github.com/zhaomaoniu/PBDConverter ）
+ JSON文件我已为大家准备好，在下载的合成工具压缩包里
+ 当然你也可以使用这个仓库的工具来转换（ https://github.com/zhaomaoniu/PBDConverter ）
 
  ## オトメ世界の歩き方 立绘合成器 Ver1.0 / Otome-Sekai-no-Arukikata-PortraitCompositor
 
