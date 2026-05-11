@@ -23,7 +23,7 @@
 - Windows 打包时使用自定义程序图标，作用于窗口左上角、任务栏和后台进程图标
  ### Ver1.2：
  - 1.原生支持PBD文件及TLG文件的导入解析。
- 该功能的实现参考了：
+ 该功能的实现,离不开：
 - PBD 文件的处理：参考了zhaomaoniu大佬（ https://github.com/zhaomaoniu ）的代码
  PBDConverter：https://github.com/zhaomaoniu/PBDConverter 。
 - TLG 文件的处理：参考了 rr- 大佬（ https://github.com/rr- ）的代码
