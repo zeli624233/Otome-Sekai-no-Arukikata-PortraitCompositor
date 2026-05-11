@@ -30,7 +30,7 @@ APP_TITLE = (
 THANKS_TEXT = """感谢名单
 
 1. PBD 文件的处理：
-   参考了 Gitai 大佬（https://github.com/zhaomaoniu）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！
+   参考了zhaomaoniu大佬（https://github.com/zhaomaoniu）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！
    PBDConverter：https://github.com/zhaomaoniu/PBDConverter
 
 2. TLG 文件的处理：
