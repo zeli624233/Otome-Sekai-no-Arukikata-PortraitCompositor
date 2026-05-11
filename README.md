@@ -9,7 +9,7 @@
   > 至于其他游戏，如果人物立绘的合成也是使用的是PBD文件和TLG文件的话，软件可能支持，总之，效果不敢保证。
 
 ## 主要功能
-### （Ver1.0）
+### Ver1.0：
 
 - 加载 `JSON 目录 + SINFO 目录 + PNG 目录`
 - 自动识别姿势、身体服装、表情、红晕
@@ -21,7 +21,7 @@
 - 可选择导出完成后自动打开文件夹
 - 可作为 Python 模块被其他脚本调用
 - Windows 打包时使用自定义程序图标，作用于窗口左上角、任务栏和后台进程图标
- ### （Ver1.2）
+ ### Ver1.2：
  - 1.原生支持PBD文件及TLG文件的导入解析。该功能的实现参考了：
 PBD 文件的处理：参考了zhaomaoniu大佬（ https://github.com/zhaomaoniu ）的代码
 PBDConverter：https://github.com/zhaomaoniu/PBDConverter 。
