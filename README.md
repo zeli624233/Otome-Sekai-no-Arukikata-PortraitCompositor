@@ -8,7 +8,7 @@
   
   > 至于其他游戏，如果人物立绘的合成也是使用的是PBD文件和TLG文件的话，软件可能支持，总之，效果不敢保证。
 
-## 主要功能
+## 主要功能：
 ### Ver1.0：
 
 - 支持加载 `JSON 目录 + SINFO 目录 + PNG 目录`
@@ -42,7 +42,7 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 </div>
 
 
-## 环境要求
+## 环境要求：
 
 - Python 3.10+
 - Windows 10/11 推荐
@@ -54,7 +54,7 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 pip install -r requirements.txt
 ```
 
-## 运行源码
+## 运行源码：
 
 ```bash
 python main.py
@@ -65,10 +65,10 @@ Windows 也可以直接运行：
 ```bat
 run_from_source.bat
 ```
-## 许可证
+## 许可证：
 
 本项目使用 MIT License。详见 [LICENSE](LICENSE)。
-# 感谢
+# 感谢：
 
 本项目是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 
