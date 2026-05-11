@@ -116,15 +116,19 @@ otome-portrait-compositor-v13-full/
 
 # 感谢
 
-这个软件是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
+本项目是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 
-PSB 文件转换成 JSON 文件参考了Gitai大佬（ https://github.com/zhaomaoniu ）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！：（ https://github.com/zhaomaoniu/PBDConverter ）
+- PSB 文件转换成 JSON 文件
+  参考了Gitai大佬（ https://github.com/zhaomaoniu ）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！：（ https://github.com/zhaomaoniu/PBDConverter ）
 
-TLG 文件转换成 PNG  文件参考了rr- 大佬（ https://github.com/rr- ）的代码，使用批处理脚本，真快！，不用手动复制了！：（ https://github.com/vn-tools/tlg2png ）
+- TLG 文件转换成 PNG  文件
+  参考了rr- 大佬（ https://github.com/rr- ）的代码，使用批处理脚本，真快！，不用手动复制了！：（ https://github.com/vn-tools/tlg2png ）
 
-XP3 游戏资源的解包离不开YeLike大佬（ https://github.com/YeLikesss ）的KrkrExtractV2 (ForCxdecV2) 动态工具集，对付加密的 Cxdec V2游戏真有一手！：（ https://github.com/YeLikesss/KrkrExtractForCxdecV2 ）
+- XP3 游戏资源的解包
+  离不开YeLike大佬（ https://github.com/YeLikesss ）的KrkrExtractV2 (ForCxdecV2) 动态工具集，对付加密的 Cxdec V2游戏真有一手！：（ https://github.com/YeLikesss/KrkrExtractForCxdecV2 ）
 
-游戏原文件文件名的还原离不开UlyssesWu大佬（ https://github.com/UlyssesWu ）的FreeMote工具，有文件的哈希值配合这个工具，游戏的文件原名轻松找到！：（ https://github.com/UlyssesWu/FreeMote ）
+- 游戏原文件文件名的还原
+  离不开UlyssesWu大佬（ https://github.com/UlyssesWu ）的FreeMote工具，有文件的哈希值配合这个工具，游戏的文件原名轻松找到！：（ https://github.com/UlyssesWu/FreeMote ）
 
 
 
