@@ -57,63 +57,6 @@ Windows 也可以直接运行：
 run_from_source.bat
 ```
 
-## 批量导出
-
-导出全部姿势的全部组合：
-
-```bash
-python batch_export.py --json-dir ./json --sinfo-dir ./sinfo --png-dir ./png_output --out-dir ./output --all-combos
-```
-
-跳过“无表情”是默认行为。若要包含无表情组合：
-
-```bash
-python batch_export.py --json-dir ./json --sinfo-dir ./sinfo --png-dir ./png_output --out-dir ./output --all-combos --include-no-expression
-```
-
-使用 8 线程导出：
-
-```bash
-python batch_export.py --json-dir ./json --sinfo-dir ./sinfo --png-dir ./png_output --out-dir ./output --all-combos --workers 8
-```
-
-## 目录结构
-
-```text
-otome-portrait-compositor-v13-full/
-├─ assets/
-│  ├─ app_icon.ico
-│  ├─ app_icon.png
-│  ├─ app_icon_preview.png
-│  └─ brand_portrait.png
-├─ otome_tlg_compositor/
-│  ├─ __init__.py
-│  ├─ __main__.py
-│  ├─ core.py
-│  └─ gui.py
-├─ PROJECT_ANALYSIS_マユミ.md
-├─ PROJECT_ANALYSIS_ユイ.md
-├─ PROJECT_ANALYSIS_サキ.md
-├─ analyze_project.py
-├─ batch_export.py
-├─ build_release_zip.bat
-├─ build_windows_exe.bat
-├─ clean_build_artifacts.bat
-├─ example_call.py
-├─ LICENSE
-├─ main.py
-├─ pyproject.toml
-├─ README.md
-├─ README_中文.md
-├─ requirements.txt
-├─ run_from_source.bat
-├─ run_windows.bat
-├─ otome_tlg_json_sinfo_compositor.spec
-├─ sample_partial_preview.png
-├─ test_out.png
-└─ test_v6.png
-   ```
-
 # 感谢
 
 本项目是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
