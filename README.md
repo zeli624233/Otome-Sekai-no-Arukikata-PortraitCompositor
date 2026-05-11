@@ -23,11 +23,11 @@
 - Windows 打包时使用自定义程序图标，作用于窗口左上角、任务栏和后台进程图标
  ### Ver1.2：
  - 1.原生支持PBD文件及TLG文件的导入解析。
-- 该功能的实现参考了：
+ 该功能的实现参考了：
 - PBD 文件的处理：参考了zhaomaoniu大佬（ https://github.com/zhaomaoniu ）的代码
-- PBDConverter：https://github.com/zhaomaoniu/PBDConverter 。
+ PBDConverter：https://github.com/zhaomaoniu/PBDConverter 。
 - TLG 文件的处理：参考了 rr- 大佬（ https://github.com/rr- ）的代码
-- tlg2png：https://github.com/vn-tools/tlg2png 。
+tlg2png：https://github.com/vn-tools/tlg2png 。
 > 在此一并感谢。
 - 2.如果用户使用的是PBD文件及TLG文件输入的话，软件会解析并在软件目录下生成一个缓存目录，下一次用户再次选择该目录时，可直接调用。
 - 3.如果监测到是PBD文件的解析时，需要游戏配置文件目录plugin下的文件，软件支持用户选择该游戏目录后，自动复制到软件目录中。
