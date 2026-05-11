@@ -1,13 +1,6 @@
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/logo2.png)
-## 使用说明 How To Use
-
-![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
-
-
- - 如果你没有PNG的图片，请使用这个仓库：https://github.com/vn-tools/tlg2png 的工具来转换。
- - JSON文件我已为大家准备好，在下载的合成工具压缩包里
- 当然你也可以使用这个仓库的工具来转换（ https://github.com/zhaomaoniu/PBDConverter ）
-
+## 简介
+本项目是用于合成游戏“オトメ世界の歩き”人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
  ## オトメ世界の歩き方 立绘合成器 Ver1.0 / Otome-Sekai-no-Arukikata-PortraitCompositor
 
 用于《オトメ世界の歩き方》立绘差分资源的 GUI 合成工具。从 **JSON** 读取图层空间坐标，从 **SINFO** 推断衣服/表情关系，再将同名 **PNG** 图层合成为最终 PNG。
