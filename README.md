@@ -56,7 +56,9 @@ Windows 也可以直接运行：
 ```bat
 run_from_source.bat
 ```
+## 许可证
 
+本项目使用 MIT License。详见 [LICENSE](LICENSE)。
 # 感谢
 
 本项目是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
