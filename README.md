@@ -1,4 +1,4 @@
-# Otome-Sekai-no-Arukikata-PortraitCompositor
+![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/logo2.png)
 ## 使用说明 How To Use
 
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%20How%20To%20Use.png)
