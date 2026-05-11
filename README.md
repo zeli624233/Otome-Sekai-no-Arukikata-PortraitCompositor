@@ -37,7 +37,7 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 ## 合成后的效果😋：
 <div align="center">
   <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E3%83%A6%E3%82%A4%EF%BC%A2_2_export.png" width="440" />
-  <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/st-la02_03_export.png" width="470" />
+  <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/st-la02_03_export.png" width="430" />
 </div>
 
 
