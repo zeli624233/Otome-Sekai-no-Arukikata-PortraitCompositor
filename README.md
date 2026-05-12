@@ -1,6 +1,6 @@
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/logo2.png)
 ## 简介：
-本项目是用于合成游戏“オトメ世界の歩き方”人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
+本项目是用于合成游戏`オトメ世界の歩き方`人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 ## 目前支持：
 - 1.オトメ世界の歩き方
 - 2.何度目かのはじめまして
@@ -22,16 +22,16 @@
 - 可作为 Python 模块被其他脚本调用
 - Windows 打包时使用自定义程序图标，作用于窗口左上角、任务栏和后台进程图标
  ### Ver1.2：
- - 1.原生支持PBD文件及TLG文件的导入解析。
+ - 1.原生支持`PBD文件`及`TLG文件`的导入解析。
  该功能的实现,离不开：
 - PBD 文件的处理：参考了zhaomaoniu大佬（ https://github.com/zhaomaoniu ）的代码
  PBDConverter：https://github.com/zhaomaoniu/PBDConverter 。
 - TLG 文件的处理：参考了 rr- 大佬（ https://github.com/rr- ）的代码
 tlg2png：https://github.com/vn-tools/tlg2png 。
 > 在此一并感谢。
-- 2.如果用户使用的是PBD文件及TLG文件输入的话，软件会解析并在软件目录下生成一个缓存目录，下一次用户再次选择该目录时，可直接调用。
-- 3.如果监测到是PBD文件的解析时，需要游戏配置文件目录plugin下的文件，软件支持用户选择该游戏目录后，自动复制到软件目录中。
-- 4.增加了多线程解析PBD文件和TLG文件的支持，如果你觉得解析很慢的话，可以试着提高解析的线程数。
+- 2.如果用户使用的是`PBD文件`及`TLG文件`输入的话，软件会解析并在软件目录下生成一个缓存目录，下一次用户再次选择该目录时，可直接调用。
+- 3.如果监测到是`PBD文件`的解析时，需要游戏配置文件目录`plugin`下的文件，软件支持用户选择该游戏目录后，自动复制到软件目录中。
+- 4.增加了多线程解析`PBD文件`和`TLG文件`的支持，如果你觉得解析很慢的话，可以试着提高解析的线程数。
 - 5.加入了对游戏`何度目かのはじめまして`人物立绘的合成支持。
 ## 使用说明：
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.png)
@@ -74,7 +74,7 @@ run_from_source.bat
 本项目使用 MIT License。详见 [LICENSE](LICENSE)。
 # 感谢：
 
-本项目是用于合成游戏 “オトメ世界の歩き方” 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
+本项目是用于合成游戏 `オトメ世界の歩き方` 人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 
 - PSB 文件转换成 JSON 文件
   参考了zhaomaoniu大佬（ https://github.com/zhaomaoniu ）的代码，非常感谢，曾一度以为没办法转换呢，幸好有大佬的仓库！：（ https://github.com/zhaomaoniu/PBDConverter ）
