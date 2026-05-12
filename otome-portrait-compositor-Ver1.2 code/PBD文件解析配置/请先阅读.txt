@@ -1,0 +1,14 @@
+这里是 PBD 文件解析配置目录。
+
+PBDConverter-main 的 README 说明如下：PBDConverter.exe 本质上就是 krkrz 的 tvpwin32.exe 改名而来。
+本版已经内置 PBDConverter.cf、data.xp3 和 PBDConverter.exe。
+
+使用 JSON/PBD 目录里的 .pbd 文件时，如果本目录还没有 json.dll 和 PackinOne.dll，
+软件会自动弹窗让你选择游戏的 plugin 文件夹。选择后，软件会把这两个 DLL 复制到本目录。
+
+通常需要选择的文件夹类似：游戏目录/plugin
+其中应包含：
+1. json.dll
+2. PackinOne.dll
+
+转换后的 JSON 会缓存在本目录下的 PBD转换缓存 文件夹中。

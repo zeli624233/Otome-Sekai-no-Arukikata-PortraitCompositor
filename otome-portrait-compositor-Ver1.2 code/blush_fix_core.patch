@@ -1,0 +1,55 @@
+--- "/mnt/data/otome_src/otome-portrait-compositor-Ver1.2 code/otome_tlg_compositor/core.py"	2026-05-12 05:55:50.000000000 +0000
++++ /mnt/data/otome_fixed_src/otome_tlg_compositor/core.py	2026-05-12 09:24:28.118021717 +0000
+@@ -986,6 +986,7 @@
+ EXPRESSION_GROUP_NAMES = {"表情", "差分", "顔", "颜", "フェイス", "face", "顔差分", "表情差分", "差分表情"}
+ EXPRESSION_NAME_HINTS = {"微笑", "にっこり", "薄ら笑い", "真剣", "怒り", "寂しい", "呆れ", "驚き", "すまし", "恍惚", "笑", "泣", "照れ", "赤面", "困", "怒", "悲", "喜"}
+ SPECIAL_NAME_HINTS = {"規制", "マスク", "mask", "遮罩", "特殊", "モザイク", "mosaic", "censor", "censorship"}
++BLUSH_NAME_HINTS = {"頬", "頰", "ほほ", "cheek", "blush", "红晕", "脸红", "臉紅"}
+ 
+ 
+ def _is_special_layer(layer: LayerEntry) -> bool:
+@@ -993,6 +994,15 @@
+     return any(h.lower() in low for h in SPECIAL_NAME_HINTS)
+ 
+ 
++def _is_blush_name(name: str) -> bool:
++    low = name.lower()
++    return any(h.lower() in low for h in BLUSH_NAME_HINTS)
++
++
++def _is_blush_layer(layer: LayerEntry) -> bool:
++    return _is_blush_name(layer.name)
++
++
+ def _is_expression_group(group_name: str, children: list[LayerEntry], canvas_w: int, canvas_h: int) -> bool:
+     name = group_name.strip()
+     low = name.lower()
+@@ -1001,7 +1011,7 @@
+     if not children:
+         return False
+     child_names = [c.name for c in children]
+-    if any(n.startswith("頬") for n in child_names):
++    if any(_is_blush_name(n) for n in child_names):
+         return True
+     if sum(any(h in n for h in EXPRESSION_NAME_HINTS) for n in child_names) >= max(2, len(child_names) // 2):
+         return True
+@@ -1089,7 +1099,7 @@
+             continue
+         if _is_expression_group(name, children, canvas_w, canvas_h):
+             for child in children:
+-                if child.name.startswith("頬"):
++                if _is_blush_layer(child):
+                     blush_layers.append(child)
+                 else:
+                     expression_layers.append(child)
+@@ -1102,6 +1112,10 @@
+     for layer in layer_entries:
+         if layer.layer_id in assigned:
+             continue
++        if _is_blush_layer(layer):
++            blush_layers.append(layer)
++            assigned.add(layer.layer_id)
++            continue
+         if _is_special_layer(layer):
+             special_layers.append(layer)
+             assigned.add(layer.layer_id)
