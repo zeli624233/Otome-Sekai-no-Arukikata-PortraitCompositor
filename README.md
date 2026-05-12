@@ -32,7 +32,7 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 - 2.如果用户使用的是PBD文件及TLG文件输入的话，软件会解析并在软件目录下生成一个缓存目录，下一次用户再次选择该目录时，可直接调用。
 - 3.如果监测到是PBD文件的解析时，需要游戏配置文件目录plugin下的文件，软件支持用户选择该游戏目录后，自动复制到软件目录中。
 - 4.增加了多线程解析PBD文件和TLG文件的支持，如果你觉得解析很慢的话，可以试着提高解析的线程数。
-- 5.加入了对游戏”何度目かのはじめまして“人物立绘的合成支持。
+- 5.加入了对游戏'何度目かのはじめまして'人物立绘的合成支持。
 ## 使用说明：
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.png)
 ## 合成后的效果😋：
