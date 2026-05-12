@@ -40,11 +40,11 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 <div align="center">
   
   <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E3%83%A6%E3%82%A4%EF%BC%A2_2_export.png" width="450" />
-  
+  ### 何度目かのはじめましてのラプラ：
   <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/st-la02_03_export.png" width="480" />
 </div>
 
-### 何度目かのはじめましてのラプラ：
+
 
 ## 环境要求：
 
