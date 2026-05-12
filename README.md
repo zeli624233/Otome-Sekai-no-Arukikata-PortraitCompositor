@@ -1,6 +1,6 @@
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/logo2.png)
 ## 简介：
-本项目是用于合成游戏`オトメ世界の歩き方`人物立绘的，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
+本项目是用于合成游戏`オトメ世界の歩き方`人物立绘，该项目的诞生参考了很多大神的Github的库，在此一并感谢！
 ## 目前支持：
 - 1.オトメ世界の歩き方
 - 2.何度目かのはじめまして
