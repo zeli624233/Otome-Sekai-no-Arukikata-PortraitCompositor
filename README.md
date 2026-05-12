@@ -36,13 +36,14 @@ tlg2png：https://github.com/vn-tools/tlg2png 。
 ## 使用说明：
 ![image](https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.png)
 ## 合成后的效果😋：
+> オトメ世界の歩き方
 <div align="center">
-  > オトメ世界の歩き方
+  
   <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/%E3%83%A6%E3%82%A4%EF%BC%A2_2_export.png" width="450" />
-  > 何度目かのはじめまして
+  
   <img src="https://github.com/zeli624233/Otome-Sekai-no-Arukikata-PortraitCompositor/blob/main/st-la02_03_export.png" width="480" />
 </div>
-
+> 何度目かのはじめまして
 
 ## 环境要求：
 
