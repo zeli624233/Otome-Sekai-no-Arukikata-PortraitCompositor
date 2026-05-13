@@ -1,0 +1,58 @@
+--- /mnt/data/core_orig.py	2026-05-13 14:59:28.447262601 +0000
++++ "/mnt/data/work_otome/otome-portrait-compositor-Ver1.2 code/otome_tlg_compositor/core.py"	2026-05-13 14:59:30.520602454 +0000
+@@ -751,10 +751,10 @@
+ 
+         return (
+             fixed_layers
+-            + sorted(special_layers, key=lambda x: x.draw_index)
+             + sorted(body_layers, key=lambda x: x.draw_index)
+             + sorted(expression_layers, key=lambda x: x.draw_index)
+             + sorted(blush_layers, key=lambda x: x.draw_index)
++            + sorted(special_layers, key=lambda x: x.draw_index)
+         )
+ 
+     def compose(self, selection: CompositionSelection) -> ComposeResult:
+@@ -955,8 +955,8 @@
+         lines.append("- 姿势及其图片分辨率选项由已加载的 JSON/SINFO 文件集合决定，每个 JSON 对应一个姿势。")
+         lines.append("- 非“表情”顶层组里的图片层作为身体服装候选。")
+         lines.append("- “表情”组中名称以“頬”开头的是红晕，其余归为表情。")
+-        lines.append("- 名称类似“規制マスク / mask / マスク”的独立可见或可选图层会归入“特殊”选项，例如白色遮罩效果。")
+-        lines.append("- 最终输出 = 1 张身体底图 + 0/1 张表情 + 0/1 张红晕 + 0/1 张特殊效果，按 JSON 中 left/top 合成。")
++        lines.append("- 名称类似“規制マスク / mask / マスク / デバイス / device”的独立可见或可选图层会归入“特殊”选项，例如白色遮罩、全息屏幕、键盘设备效果。")
++        lines.append("- 最终输出 = 1 张身体底图 + 0/1 张表情 + 0/1 张红晕 + 0/1 张特殊效果；特殊效果最后叠加，避免被身体服装挡住。")
+         return "\n".join(lines)
+ 
+ 
+@@ -985,7 +985,31 @@
+ 
+ EXPRESSION_GROUP_NAMES = {"表情", "差分", "顔", "颜", "フェイス", "face", "顔差分", "表情差分", "差分表情"}
+ EXPRESSION_NAME_HINTS = {"微笑", "にっこり", "薄ら笑い", "真剣", "怒り", "寂しい", "呆れ", "驚き", "すまし", "恍惚", "笑", "泣", "照れ", "赤面", "困", "怒", "悲", "喜"}
+-SPECIAL_NAME_HINTS = {"規制", "マスク", "mask", "遮罩", "特殊", "モザイク", "mosaic", "censor", "censorship"}
++SPECIAL_NAME_HINTS = {
++    "規制",
++    "マスク",
++    "mask",
++    "遮罩",
++    "特殊",
++    "モザイク",
++    "mosaic",
++    "censor",
++    "censorship",
++    # 独立的前景/特效道具：ミク 的 “デバイス” 就是这种顶层独立图层，
++    # 不能当 fixed layer 先画，否则会被身体服装挡住。
++    "デバイス",
++    "device",
++    "端末",
++    "モニター",
++    "monitor",
++    "screen",
++    "ディスプレイ",
++    "display",
++    "キーボード",
++    "keyboard",
++    "ホログラム",
++    "hologram",
++}
+ BLUSH_NAME_HINTS = {"頬", "頰", "ほほ", "cheek", "blush", "红晕", "脸红", "臉紅"}
+ 
+ 
